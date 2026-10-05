@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Currículo · Enrique Artur</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--text:#1d1d1f;--muted:#6e6e73;--soft:#86868b;--line:#e5e5ea;--blue:#0071e3;--bg:#f5f5f7}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Inter","Helvetica Neue",Arial,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:var(--blue);text-decoration:none}
+.bar{max-width:820px;margin:28px auto 14px;padding:0 16px;display:flex;justify-content:space-between;align-items:center;font-size:.9rem}
+.bar button{background:var(--blue);color:#fff;border:0;border-radius:980px;padding:9px 18px;font:500 .9rem inherit;font-family:inherit;cursor:pointer}
+.page{max-width:820px;margin:0 auto 40px;background:#fff;border-radius:24px;padding:52px 56px;box-shadow:0 10px 40px rgba(0,0,0,.06)}
+h1{font-size:2.3rem;letter-spacing:-.035em;line-height:1.05;margin:0}
+.role{font-size:1.1rem;color:var(--muted);font-weight:500;margin:6px 0 14px}
+.contact{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.88rem;color:var(--muted)}
+h2{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--soft);font-weight:600;margin:34px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+p{margin:0}
+.summary{font-size:1rem}
+.item{margin-bottom:18px}.item:last-child{margin-bottom:0}
+.item-head{display:flex;justify-content:space-between;gap:12px;align-items:baseline}
+.item h3{font-size:1.02rem;margin:0;letter-spacing:-.01em}
+.item .when{font-size:.82rem;color:var(--soft);white-space:nowrap}
+.item .org{color:var(--muted);font-size:.9rem;margin:1px 0 6px}
+ul{margin:6px 0 0;padding-left:18px}li{margin:3px 0}
+.highlight{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:14px}
+.hl{background:var(--bg);border-radius:14px;padding:14px 16px}
+.hl b{display:block;font-size:1rem}
+.hl span{font-size:.86rem;color:var(--muted)}
+.skills{display:grid;grid-template-columns:130px 1fr;gap:6px 16px;font-size:.93rem}
+.skills dt{font-weight:600}.skills dd{margin:0;color:#424245}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.tag{font-size:.75rem;padding:3px 9px;border-radius:980px;background:var(--bg);color:#424245}
+.status{font-size:.72rem;font-weight:600;color:#b25000;background:#fff4e5;padding:2px 8px;border-radius:980px;margin-left:6px;vertical-align:2px}
+@media(max-width:640px){.page{padding:32px 22px;border-radius:0}.highlight{grid-template-columns:1fr}.skills{grid-template-columns:1fr}.skills dd{margin-bottom:8px}.item-head{flex-direction:column;gap:0}}
+@media print{
+  @page{size:A4;margin:14mm}
+  body{background:#fff}
+  .bar{display:none}
+  .page{box-shadow:none;border-radius:0;padding:0;margin:0;max-width:none}
+  a{color:var(--text)}
+  .hl,.tag{background:#f2f2f4;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .item{break-inside:avoid}
+}
+</style>
+</head>
+<body>
+
+<div class="bar"><a href="index.html">‹ Voltar ao site</a><a href="resume.html" lang="en">English version</a><button onclick="window.print()">Imprimir / salvar PDF</button></div>
+
+<main class="page">
+  <h1>Enrique Artur Rodrigues Santos</h1>
+  <p class="role">QA · Front-end React · Desenvolvimento Python · Banco de Dados</p>
+  <div class="contact">
+    <span>Cesário Lange, SP</span>
+    <a href="mailto:seuemail@email.com">seuemail@email.com</a>
+    <a href="https://www.linkedin.com/">linkedin.com/in/seu-perfil</a>
+    <a href="https://github.com/">github.com/seu-usuario</a>
+  </div>
+
+  <h2>Resumo</h2>
+  <p class="summary">Estudante do 6º semestre de Gestão da Tecnologia da Informação na Fatec Tatuí, com experiência em projetos de inteligência artificial. Desenvolvo em <b>Python</b> e trabalho com bancos relacionais, principalmente <b>PostgreSQL</b>. No front-end, construo interfaces com <b>React</b> e <b>TypeScript</b>, incluindo experiências 3D interativas na web com <b>Three.js</b>. Tenho perfil autodidata e gosto de investigar problemas até a causa. Busco uma oportunidade em QA/Testes, SDET, Suporte ou Desenvolvimento.</p>
+
+  <h2>Competências técnicas</h2>
+  <div class="highlight">
+    <div class="hl"><b>Python</b><span>Scripts, automação, lógica de programação e integração com banco de dados.</span></div>
+    <div class="hl"><b>PostgreSQL</b><span>Modelagem relacional, consultas SQL, joins, agregações e integração com aplicações.</span></div>
+    <div class="hl"><b>React + TypeScript</b><span>Interfaces componentizadas e experiências 3D na web com Three.js e React Three Fiber.</span></div>
+  </div>
+  <dl class="skills">
+    <dt>Linguagens</dt><dd>Python, SQL, TypeScript, JavaScript (Node.js), Lua</dd>
+    <dt>Front-end</dt><dd>React, Vite, Tailwind CSS, shadcn/ui, Motion (Framer Motion)</dd>
+    <dt>3D e Web APIs</dt><dd>Three.js, React Three Fiber, drei, WebGL, Web Audio API, Canvas 2D</dd>
+    <dt>Banco de dados</dt><dd>PostgreSQL, MariaDB, MongoDB, Firebase / Firestore</dd>
+    <dt>QA</dt><dd>Testes funcionais, criação de cenários e casos de teste, reprodução e documentação de bugs</dd>
+    <dt>Mobile</dt><dd>React Native, Expo GO</dd>
+    <dt>Ferramentas</dt><dd>Git, GitHub, Linux (Red Hat, Kali, Arch), Figma, Excel, Word</dd>
+  </dl>
+
+  <h2>Experiência</h2>
+  <div class="item">
+    <div class="item-head"><h3>Engenharia de IA</h3><span class="when">Período</span></div>
+    <p class="org">G2i.CO</p>
+    <ul>
+      <li>Atuação em projetos de inteligência artificial e no desenvolvimento de modelos.</li>
+      <li>Implementação de soluções tecnológicas em ambiente de projeto remoto.</li>
+    </ul>
+  </div>
+  <div class="item">
+    <div class="item-head"><h3>Recreacionista</h3><span class="when">Período</span></div>
+    <p class="org">Mavsa Resort</p>
+    <ul>
+      <li>Planejamento e condução de atividades, atendimento ao público e trabalho em equipe.</li>
+      <li>Resolução de problemas em tempo real e cumprimento de procedimentos.</li>
+    </ul>
+  </div>
+  <div class="item">
+    <div class="item-head"><h3>Experiências administrativas e operacionais</h3></div>
+    <ul>
+      <li>Organização de informações e documentos, controle de dados e processos no Excel e no Word.</li>
+    </ul>
+  </div>
+
+  <h2>Projetos</h2>
+  <div class="item">
+    <div class="item-head"><h3>Portfólio 3D · Experiência web interativa</h3></div>
+    <p>Portfólio pessoal em forma de prédio 3D explorável, em que cada andar representa uma fase da minha trajetória.</p>
+    <ul>
+      <li>Navegação em primeira pessoa com teclado, mouse e toque (joystick virtual), colisão com o ambiente, elevador funcional e tour automático.</li>
+      <li>Sistema de interação reutilizável e orientado a dados: andares, objetos e textos definidos em arquivos TypeScript, sem alterar a cena.</li>
+      <li>Performance: detecção de capacidade do dispositivo, níveis de qualidade, modo desempenho, instancing e code splitting (three.js só carrega no modo 3D).</li>
+      <li>Acessibilidade: modo acessível com o conteúdo em seções tradicionais e fallback automático quando o WebGL não está disponível.</li>
+      <li>Áudio ambiente e efeitos sintetizados com Web Audio API; placas e telas desenhadas em Canvas 2D, sem arquivos externos.</li>
+    </ul>
+    <div class="tags"><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Three.js</span><span class="tag">React Three Fiber</span><span class="tag">drei</span><span class="tag">Vite</span><span class="tag">Tailwind CSS</span><span class="tag">Web Audio API</span></div>
+  </div>
+  <div class="item">
+    <div class="item-head"><h3>NewEdu · Plataforma educacional gamificada</h3></div>
+    <p>Plataforma para preparação para provas e concursos, com XP, níveis, ranking e acompanhamento de progresso. Participei do planejamento, da definição do produto, da prototipação e do desenvolvimento.</p>
+    <div class="tags"><span class="tag">React Native</span><span class="tag">Expo</span><span class="tag">Firebase</span><span class="tag">Firestore</span><span class="tag">Figma</span></div>
+  </div>
+  <div class="item">
+    <div class="item-head"><h3>QA Lab · Gerenciador de testes e bugs</h3></div>
+    <p>Ferramenta de gestão de testes (no estilo do TestRail) com casos de teste, ciclos por versão, execuções manuais e automatizadas, bug reports e relatórios.</p>
+    <ul>
+      <li>Importação de resultados JUnit XML (pytest, Jest, Cypress), unindo testes manuais e automatizados no mesmo relatório.</li>
+      <li>Detecção de testes instáveis (flaky) com window functions e exportação de relatórios em Markdown e CSV.</li>
+      <li>Banco em PostgreSQL com chaves compostas, ENUMs, CHECK e triggers em PL/pgSQL para o histórico de bugs.</li>
+      <li>API em Python com FastAPI e psycopg (SQL sem ORM), coberta por 77 testes automatizados com pytest.</li>
+    </ul>
+    <div class="tags"><span class="tag">Python</span><span class="tag">PostgreSQL</span><span class="tag">SQL</span><span class="tag">FastAPI</span><span class="tag">pytest</span><span class="tag">JavaScript</span></div>
+  </div>
+
+  <h2>Formação</h2>
+  <div class="item">
+    <div class="item-head"><h3>Tecnologia em Gestão da Tecnologia da Informação</h3><span class="when">6º semestre · 2026</span></div>
+    <p class="org">Fatec Tatuí</p>
+  </div>
+
+  <h2>Idiomas</h2>
+  <dl class="skills">
+    <dt>Inglês</dt><dd>C1 · Avançado / fluente</dd>
+    <dt>Russo</dt><dd>B2 · Intermediário</dd>
+  </dl>
+</main>
+</body>
+</html>
